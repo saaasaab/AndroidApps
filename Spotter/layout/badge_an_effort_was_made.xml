@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/border_ui"
+        android:paddingBottom="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="10dp"
+        android:text="An Effort Was Made"
+        android:textAlignment="center"
+        android:textColor="#d20000"
+        android:textSize="@dimen/BADGE_TEXT_SIZE"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageViewAnEffortWasMade"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_gravity="center"
+        android:src="@drawable/an_attempt_was_made"
+ />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Finish a workout with less than 1,000 pounds. Don't just quit to get this badge,
+save it for when you really only can do a short workout."
+        android:gravity="center" />
+</LinearLayout>

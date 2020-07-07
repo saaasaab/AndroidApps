@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_level"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select the weight"
+                android:textAlignment="center"
+                android:textSize="30sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/BUTTON_HEIGHT"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:text="5 lbs"
+                    android:textSize="@dimen/SIZE_OF_WEIGHT_BUTTONS" />
+
+                <Button
+                    android:id="@+id/button10"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:text="10 lbs"
+                    android:textSize="@dimen/SIZE_OF_WEIGHT_BUTTONS" />
+
+                <Button
+                    android:id="@+id/button15"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:text="15 lbs"
+                    android:textSize="@dimen/SIZE_OF_WEIGHT_BUTTONS" />
+
+                <Button
+                    android:id="@+id/button20"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:text="20 lbs"
+                    android:textSize="@dimen/SIZE_OF_WEIGHT_BUTTONS" />
+
+                <Button
+                    android:id="@+id/button25"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:text="25 lbs"
+                    android:textSize="@dimen/SIZE_OF_WEIGHT_BUTTONS" />
+            </LinearLayout>
+            <!-- **********************************************************************
+
+
+            **********************************************************************-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/BUTTON_HEIGHT"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <Button
+                    android:id="@+id/button30"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:text="30 lbs"
+                    android:textSize="@dimen/SIZE_OF_WEIGHT_BUTTONS" />
+
+                <Button
+                    android:id="@+id/button35"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:text="35 lbs"
+                    android:textSize="@dimen/SIZE_OF_WEIGHT_BUTTONS" />
+
+                <Button
+                    android:id="@+id/button40"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:text="40 lbs"
+                    android:textSize="@dimen/SIZE_OF_WEIGHT_BUTTONS" />
+
+                <Button
+                    android:id="@+id/button45"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:text="45 lbs"
+                    android:textSize="@dimen/SIZE_OF_WEIGHT_BUTTONS" />
+
+                <Button
+                    android:id="@+id/button50"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:text="50 lbs"
+                    android:textSize="@dimen/SIZE_OF_WEIGHT_BUTTONS" />
+
+            </LinearLayout>
+
+            <!-- **********************************************************************
+
+
+            **********************************************************************-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/BUTTON_HEIGHT"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <Button
+                    android:id="@+id/button55"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:text="55 lbs"
+                    android:textSize="@dimen/SIZE_OF_WEIGHT_BUTTONS" />
+
+                <Button
+                    android:id="@+id/button60"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:text="60 lbs"
+                    android:textSize="@dimen/SIZE_OF_WEIGHT_BUTTONS" />
+
+                <Button
+                    android:id="@+id/button65"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:text="65 lbs"
+                    android:textSize="@dimen/SIZE_OF_WEIGHT_BUTTONS" />
+
+                <Button
+                    android:id="@+id/button70"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:text="70 lbs"
+                    android:textSize="@dimen/SIZE_OF_WEIGHT_BUTTONS" />
+
+                <Button
+                    android:id="@+id/button75"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:text="75 lbs"
+                    android:textSize="@dimen/SIZE_OF_WEIGHT_BUTTONS" />
+            </LinearLayout>
+
+            <!-- **********************************************************************
+
+
+         **********************************************************************-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/BUTTON_HEIGHT"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <Button
+                    android:id="@+id/button80"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:text="80 lbs"
+                    android:textSize="@dimen/SIZE_OF_WEIGHT_BUTTONS" />
+
+                <Button
+                    android:id="@+id/button85"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:text="85 lbs"
+                    android:textSize="@dimen/SIZE_OF_WEIGHT_BUTTONS" />
+
+                <Button
+                    android:id="@+id/button90"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:text="90 lbs"
+                    android:textSize="@dimen/SIZE_OF_WEIGHT_BUTTONS" />
+
+                <Button
+                    android:id="@+id/button95"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:text="95 lbs"
+                    android:textSize="@dimen/SIZE_OF_WEIGHT_BUTTONS" />
+
+                <Button
+                    android:id="@+id/button100"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:text="100 lbs"
+                    android:textSize="@dimen/SIZE_OF_WEIGHT_BUTTONS" />
+            </LinearLayout>
+
+            <!-- **********************************************************************
+
+
+         **********************************************************************-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/BUTTON_HEIGHT"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <Button
+                    android:id="@+id/button105"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:text="105 lbs"
+                    android:textSize="@dimen/SIZE_OF_WEIGHT_BUTTONS" />
+
+                <Button
+                    android:id="@+id/button110"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:text="110 lbs"
+                    android:textSize="@dimen/SIZE_OF_WEIGHT_BUTTONS" />
+
+                <Button
+                    android:id="@+id/button115"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:text="115 lbs"
+                    android:textSize="@dimen/SIZE_OF_WEIGHT_BUTTONS" />
+
+                <Button
+                    android:id="@+id/button120"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:text="120 lbs"
+                    android:textSize="@dimen/SIZE_OF_WEIGHT_BUTTONS" />
+
+                <Button
+                    android:id="@+id/button125"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:text="125 lbs"
+                    android:textSize="@dimen/SIZE_OF_WEIGHT_BUTTONS" />
+            </LinearLayout>
+
+            <!-- **********************************************************************
+
+
+         **********************************************************************-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/BUTTON_HEIGHT"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <Button
+                    android:id="@+id/button130"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:text="130 lbs"
+                    android:textSize="@dimen/SIZE_OF_WEIGHT_BUTTONS" />
+
+                <Button
+                    android:id="@+id/button135"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:text="135 lbs"
+                    android:textSize="@dimen/SIZE_OF_WEIGHT_BUTTONS" />
+
+                <Button
+                    android:id="@+id/button140"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:text="140 lbs"
+                    android:textSize="@dimen/SIZE_OF_WEIGHT_BUTTONS" />
+
+                <Button
+                    android:id="@+id/button145"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:text="145 lbs"
+                    android:textSize="@dimen/SIZE_OF_WEIGHT_BUTTONS" />
+
+                <Button
+                    android:id="@+id/button150"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:text="150 lbs"
+                    android:textSize="@dimen/SIZE_OF_WEIGHT_BUTTONS" />
+            </LinearLayout>
+
+            <!-- **********************************************************************
+
+
+         **********************************************************************-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/BUTTON_HEIGHT"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <Button
+                    android:id="@+id/button155"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:text="155 lbs"
+                    android:textSize="@dimen/SIZE_OF_WEIGHT_BUTTONS" />
+
+                <Button
+                    android:id="@+id/button160"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:text="160 lbs"
+                    android:textSize="@dimen/SIZE_OF_WEIGHT_BUTTONS" />
+
+                <Button
+                    android:id="@+id/button165"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:text="165 lbs"
+                    android:textSize="@dimen/SIZE_OF_WEIGHT_BUTTONS" />
+
+                <Button
+                    android:id="@+id/button170"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:text="170 lbs"
+                    android:textSize="@dimen/SIZE_OF_WEIGHT_BUTTONS" />
+
+                <Button
+                    android:id="@+id/button175"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:text="175 lbs"
+                    android:textSize="@dimen/SIZE_OF_WEIGHT_BUTTONS" />
+            </LinearLayout>
+
+            <!-- **********************************************************************
+
+
+         **********************************************************************-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/BUTTON_HEIGHT"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <Button
+                    android:id="@+id/button180"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:text="180 lbs"
+                    android:textSize="@dimen/SIZE_OF_WEIGHT_BUTTONS" />
+
+                <Button
+                    android:id="@+id/button185"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:text="185 lbs"
+                    android:textSize="@dimen/SIZE_OF_WEIGHT_BUTTONS" />
+
+                <Button
+                    android:id="@+id/button190"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:text="190 lbs"
+                    android:textSize="@dimen/SIZE_OF_WEIGHT_BUTTONS" />
+
+                <Button
+                    android:id="@+id/button195"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:text="195 lbs"
+                    android:textSize="@dimen/SIZE_OF_WEIGHT_BUTTONS" />
+
+                <Button
+                    android:id="@+id/button200"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:text="200 lbs"
+                    android:textSize="@dimen/SIZE_OF_WEIGHT_BUTTONS" />
+            </LinearLayout>
+            <!-- **********************************************************************
+
+
+         **********************************************************************-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/BUTTON_HEIGHT"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <Button
+                    android:id="@+id/button205"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:text="205 lbs"
+                    android:textSize="@dimen/SIZE_OF_WEIGHT_BUTTONS" />
+
+                <Button
+                    android:id="@+id/button210"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:text="210 lbs"
+                    android:textSize="@dimen/SIZE_OF_WEIGHT_BUTTONS" />
+
+                <Button
+                    android:id="@+id/button215"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:text="215 lbs"
+                    android:textSize="@dimen/SIZE_OF_WEIGHT_BUTTONS" />
+
+                <Button
+                    android:id="@+id/button220"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:text="220 lbs"
+                    android:textSize="@dimen/SIZE_OF_WEIGHT_BUTTONS" />
+
+                <Button
+                    android:id="@+id/button225"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:text="225 lbs"
+                    android:textSize="@dimen/SIZE_OF_WEIGHT_BUTTONS" />
+            </LinearLayout>
+
+            <!-- **********************************************************************
+
+
+         **********************************************************************-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/BUTTON_HEIGHT"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <Button
+                    android:id="@+id/button230"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:text="230 lbs"
+                    android:textSize="@dimen/SIZE_OF_WEIGHT_BUTTONS" />
+
+                <Button
+                    android:id="@+id/button235"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:text="235 lbs"
+                    android:textSize="@dimen/SIZE_OF_WEIGHT_BUTTONS" />
+
+                <Button
+                    android:id="@+id/button240"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:text="240 lbs"
+                    android:textSize="@dimen/SIZE_OF_WEIGHT_BUTTONS" />
+
+                <Button
+                    android:id="@+id/button245"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:text="245 lbs"
+                    android:textSize="@dimen/SIZE_OF_WEIGHT_BUTTONS" />
+
+                <Button
+                    android:id="@+id/button250"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:text="250 lbs"
+                    android:textSize="@dimen/SIZE_OF_WEIGHT_BUTTONS" />
+            </LinearLayout>
+
+            <!-- **********************************************************************
+
+
+         **********************************************************************-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/BUTTON_HEIGHT"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <Button
+                    android:id="@+id/button255"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:text="255 lbs"
+                    android:textSize="@dimen/SIZE_OF_WEIGHT_BUTTONS" />
+
+                <Button
+                    android:id="@+id/button260"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:text="260 lbs"
+                    android:textSize="@dimen/SIZE_OF_WEIGHT_BUTTONS" />
+
+                <Button
+                    android:id="@+id/button265"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:text="265 lbs"
+                    android:textSize="@dimen/SIZE_OF_WEIGHT_BUTTONS" />
+
+                <Button
+                    android:id="@+id/button270"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:text="270 lbs"
+                    android:textSize="@dimen/SIZE_OF_WEIGHT_BUTTONS" />
+
+                <Button
+                    android:id="@+id/button275"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:text="275 lbs"
+                    android:textSize="@dimen/SIZE_OF_WEIGHT_BUTTONS" />
+            </LinearLayout>
+
+            <!-- **********************************************************************
+
+
+        **********************************************************************-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/BUTTON_HEIGHT"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <Button
+                    android:id="@+id/button280"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:text="280 lbs"
+                    android:textSize="@dimen/SIZE_OF_WEIGHT_BUTTONS" />
+
+                <Button
+                    android:id="@+id/button285"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:text="285 lbs"
+                    android:textSize="@dimen/SIZE_OF_WEIGHT_BUTTONS" />
+
+                <Button
+                    android:id="@+id/button290"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:text="290 lbs"
+                    android:textSize="@dimen/SIZE_OF_WEIGHT_BUTTONS" />
+
+                <Button
+                    android:id="@+id/button295"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:text="295 lbs"
+                    android:textSize="@dimen/SIZE_OF_WEIGHT_BUTTONS" />
+
+                <Button
+                    android:id="@+id/button300"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:text="300 lbs"
+                    android:textSize="@dimen/SIZE_OF_WEIGHT_BUTTONS" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

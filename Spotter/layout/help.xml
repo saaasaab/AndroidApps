@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Spotter.
+The best tool to maintain motivated while doing a workout"
+            />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Click 'Start New Workout' to begin your workout.  Every weight you lift, record in the app.
+
+Set your weight and an appropriate goal.
+
+Once complete, press 'End Session'. This saves your workout to be viewed another time.
+
+All workouts are recorded so you can see your progress over time.
+
+Keep up the good work and enjoy working out!
+
+Normally, noticable results only appear after months of diligent excercise.  With Spotter you can actually
+measure the difference you are making in a matter of days.  You can see yourself getting stronger.  "
+
+
+            />
+
+    </LinearLayout>
+</LinearLayout>

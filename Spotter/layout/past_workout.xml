@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_level"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="20dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/border_ui"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:text="Past Workouts"
+                android:textAlignment="center"
+                android:textColor="#d20000"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="10dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/middle_panel_height"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="125dp"
+                    android:layout_height="@dimen/middle_panel_height"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:background="@drawable/border_ui"
+                        android:orientation="horizontal"
+                        android:weightSum=".5">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".2"
+                            android:text=" #"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            style="@style/AudioFileInfoOverlayText"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".3"
+                            android:text=" Total"
+                            android:textColor="#11ff11"
+                            android:textSize="20sp" />
+
+                        <!--<TextView-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:layout_weight=".25"-->
+                        <!--android:textColor="#000000"-->
+                        <!--android:text="Arms" />-->
+
+                        <!--<TextView-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:layout_weight=".25"-->
+                        <!--android:textColor="#0000ff"-->
+                        <!--android:text="Legs" />-->
+
+                        <!--<TextView-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:layout_weight=".25"-->
+                        <!--android:textColor="#ff0000"-->
+                        <!--android:text="Back and Core" />-->
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:orientation="horizontal"
+                        android:weightSum="1.30">
+
+                        <ListView
+                            android:id="@+id/listViewAll"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginTop="5dp"
+                            android:layout_weight="1.3"
+                            android:background="@drawable/border_ui" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="0dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/middle_panel_height"
+                    android:background="@drawable/border_ui"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewArms"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Arms"
+                        android:textColor="#000000"
+                        android:typeface="monospace"/>
+
+                    <TextView
+                        android:id="@+id/textViewLegs"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Legs"
+                        android:textColor="#0000FF"
+                        android:typeface="monospace" />
+
+                    <TextView
+                        android:id="@+id/textViewBackAndCore"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Back and Core"
+                        android:textColor="#FF0000"
+                        android:typeface="monospace" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="#000000"/>
+
+                    <TextView
+                        android:id="@+id/textViewMachines"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Machines"
+                        android:typeface="monospace" />
+
+                    <TextView
+                        android:id="@+id/textViewFreeWeights"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Free Weights"
+                        android:typeface="monospace" />
+
+                    <TextView
+                        android:id="@+id/textViewFloorExercises"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Floor Exercises"
+                        android:typeface="monospace" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="#000000"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+
+                        <TextView
+
+                            android:layout_width="0dp"
+                            android:layout_weight=".5"
+                            android:layout_height="wrap_content"
+                            android:text="Total:"
+                            android:textSize="25sp"
+                            android:typeface="monospace" />
+
+                        <TextView
+                            android:id="@+id/textViewTotalPastWorkouts"
+                            android:layout_width="0dp"
+                            android:layout_weight=".5"
+                            android:layout_height="wrap_content"
+                            android:text="Total"
+                            android:textSize="20sp"
+                            android:typeface="monospace" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="10dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:gravity="top"
+                android:orientation="vertical">
+
+                <com.jjoe64.graphview.GraphView
+                    android:id="@+id/workout_graph"
+                    style="@style/AudioFileInfoOverlayText"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:background="@drawable/border_ui" />
+
+                <Button
+                    android:id="@+id/genocide"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Clear All Workouts" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

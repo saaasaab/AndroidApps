@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_level"
+    android:orientation="vertical"
+    android:paddingTop="1dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_ui"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:layout_weight="1"
+        android:paddingTop="5dp">
+
+        <TextView
+            android:id="@+id/score_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="@string/lifted_0_lbs"
+            android:textColor="#343434"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/goal_display"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:gravity="bottom"
+            android:paddingTop="5dp"
+            android:text="@string/starting_goal"
+            android:textColor="#343434"
+            android:textSize="25sp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_ui"
+        android:orientation="vertical"
+        android:layout_weight="1.5"
+        android:paddingTop="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="TIMER"
+            android:textAlignment="center"
+            android:textColor="#343434"
+            android:textSize="25sp"/>
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="bottom"
+            android:text="00:00:00"
+            android:textAlignment="center"
+            android:textColor="#343434"
+            android:textSize="30sp"/>
+
+
+    </LinearLayout>
+</LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="15dp"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="@color/red">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Machines"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="24dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1.0">
+
+
+                <Button
+                    android:id="@+id/machine"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".33"
+                    android:background="@drawable/buttons_for_new_workout"
+                    android:text="Arm Machine" />
+
+                <Button
+                    android:id="@+id/leg_machine"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".33"
+                    android:background="@drawable/buttons_for_new_workout"
+                    android:text="Leg Machine" />
+
+                <Button
+                    android:id="@+id/ab_machine"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".33"
+                    android:background="@drawable/buttons_for_new_workout"
+                    android:text="Ab Machines" />
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="10dp"
+                android:layout_weight="1" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="@color/red">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Free Weights"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="24dp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1.0">
+
+                <Button
+                    android:id="@+id/dumb_bells"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".33"
+                    android:background="@drawable/buttons_for_new_workout"
+                    android:text="Dumb Bells" />
+
+                <Button
+                    android:id="@+id/hamstring"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".33"
+                    android:background="@drawable/buttons_for_new_workout"
+                    android:text="Hamstring" />
+
+                <Button
+                    android:id="@+id/dead_lift"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".33"
+                    android:background="@drawable/buttons_for_new_workout"
+                    android:text="Dead Lift" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1.0">
+
+                <Button
+                    android:id="@+id/bench_press"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".33"
+                    android:background="@drawable/buttons_for_new_workout"
+                    android:text="Bench Press" />
+
+                <Button
+                    android:id="@+id/squat"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".33"
+                    android:background="@drawable/buttons_for_new_workout"
+                    android:text="Squat" />
+
+                <Button
+                    android:id="@+id/medicine_ball"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".33"
+                    android:background="@drawable/buttons_for_new_workout"
+                    android:text="Medicine Ball" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1.0">
+
+
+                <Button
+                    android:id="@+id/shoulders"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".33"
+                    android:background="@drawable/buttons_for_new_workout"
+                    android:text="Sholders" />
+
+                <Button
+                    android:id="@+id/calf"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".33"
+                    android:background="@drawable/buttons_for_new_workout"
+                    android:text="Calf" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1.0">
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1.0">
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="10dp"
+                    android:layout_weight=".33" />
+
+                <Button
+                    android:id="@+id/leg_press"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".33"
+                    android:background="@drawable/buttons_for_new_workout"
+                    android:text="Leg Press" />
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="10dp"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="@color/red">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Floor Exercises"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1.0">
+
+
+                <Button
+                    android:id="@+id/pull_up"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".33"
+                    android:background="@drawable/buttons_for_new_workout"
+                    android:text="@string/pull_up" />
+
+                <Button
+                    android:id="@+id/lunge"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".33"
+                    android:background="@drawable/buttons_for_new_workout"
+                    android:text="Lunge" />
+
+
+                <Button
+                    android:id="@+id/crunches"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".33"
+                    android:background="@drawable/buttons_for_new_workout"
+                    android:text="Crunches" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1.0">
+
+                <Button
+                    android:id="@+id/push_ups"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".33"
+                    android:background="@drawable/buttons_for_new_workout"
+                    android:text="@string/push_up" />
+
+                <Button
+                    android:id="@+id/toe_ups"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".33"
+                    android:background="@drawable/buttons_for_new_workout"
+                    android:text="Toe Ups" />
+
+                <Button
+                    android:id="@+id/side_crunches"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".33"
+                    android:background="@drawable/buttons_for_new_workout"
+                    android:text="Side Crunches" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1.0">
+
+                <Button
+                    android:id="@+id/triceps_push_up"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".33"
+                    android:background="@drawable/buttons_for_new_workout"
+                    android:text="@string/triceps_push_up" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="10dp"
+                    android:layout_weight=".33" />
+
+
+                <Button
+                    android:id="@+id/leg_lifts"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".33"
+                    android:background="@drawable/buttons_for_new_workout"
+                    android:text="Leg Lifts" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="50dp"
+
+                android:orientation="horizontal"
+                android:weightSum="1.0">
+
+                <Button
+                    android:id="@+id/change_weight"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".49"
+                    android:background="#333333"
+                    android:text="@string/enter_your_weight"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/OPTIONS_TEXT_SIZE" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".02" />
+
+                <Button
+                    android:id="@+id/change_goal"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".49"
+                    android:background="#333333"
+                    android:text="Enter Your Goal"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/OPTIONS_TEXT_SIZE" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:weightSum="1.0">
+
+                <Button
+                    android:id="@+id/reset"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".49"
+                    android:background="#333333"
+                    android:text="@string/reset"
+                    android:textColor="#ffffff" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".02" />
+
+                <Button
+                    android:id="@+id/end_session"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".49"
+                    android:background="#2dd2ff"
+                    android:text="END SESSION"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/OPTIONS_TEXT_SIZE" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
